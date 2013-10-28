@@ -16,21 +16,15 @@ class Action():
 class LawyerProxy(Action):
     def __init__(self, action):
         self.action = action
-    def helpTakeAction(self):
+    def takeAction(self):
         self.action.takeAction()
-        self.action.listEvidences()
-        self.action.courtDecision()
 
 class EconomicAction(Action):
     def takeAction(self):        
         print "take action with economic law!"
-    def listEvidences(self):
-        print "find evidences for the action!"
-    def courtDecision(self):
-        print "All standup,pronounce judgment!"
 
 if __name__ == '__main__':
     ec = EconomicAction()
     lawyer = LawyerProxy(ec)
-    lawyer.helpTakeAction()
+    lawyer.takeAction()
     
