@@ -1,15 +1,41 @@
 sudo: true
 language: python
 python:
-  - "2.6"
   - "2.7"
   - "3.3"
   - "3.4"
   - "3.5"
   - "3.6"
-# command to install dependencies
-#install:
-#  - pip install -r requirements.txt
-# command to run tests
+  - "3.7"
 script:
-  - python Behavioral/ChainOfResponsibility/Principle.py # or py.test for Python versions 3.5 and below
+  - python ./Creational/Builder/Builder.py \
+./Creational/FactoryMethod/Common.py \
+./Creational/FactoryMethod/Static.py \
+./Creational/FactoryMethod/Multiple.py \
+./Creational/AbstractFactory/Abstract.py \
+./Creational/Prototype/Prototype.py \
+./Creational/Singleton/General.py \
+./Creational/Singleton/Decorator.py \
+./Creational/Singleton/MetaClass.py \
+./Structural/Composite/Composite.py \
+./Structural/Facade/Facade.py \
+./Structural/Decorator/Principl.py \
+./Structural/Decorator/Implement.py \
+./Structural/Bridge/Bridge.py \
+./Structural/Adapter/Object.py \
+./Structural/Adapter/Interface.py \
+./Structural/Adapter/Class.py \
+./Structural/Flyweight/Flyweight.py \
+./Structural/Proxy/Proxy.py \
+./Behavioral/Observer/Observer.py \
+./Behavioral/Iterator/Principle.py \
+./Behavioral/Iterator/Implementation.py \
+./Behavioral/Memento/Memento.py \
+./Behavioral/TemplateMethod/Examination.py \
+./Behavioral/Command/Command.py \
+./Behavioral/Strategy/Strategy.py \
+./Behavioral/Mediator/Mediator.py \
+./Behavioral/Interpreter/Interpreter.py \
+./Behavioral/State/State.py \
+./Behavioral/Visitor/Visitor.py \
+./Behavioral/ChainOfResponsibility/Principle.py
