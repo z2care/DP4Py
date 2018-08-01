@@ -19,7 +19,7 @@ script:
   - python ./Creational/Singleton/MetaClass.py
   - python ./Structural/Composite/Composite.py
   - python ./Structural/Facade/Facade.py
-  - python ./Structural/Decorator/Principl.py
+  - python ./Structural/Decorator/Principle.py
   - python ./Structural/Decorator/Implement.py
   - python ./Structural/Bridge/Bridge.py
   - python ./Structural/Adapter/Object.py
