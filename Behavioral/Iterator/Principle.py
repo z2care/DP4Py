@@ -35,6 +35,8 @@ class List(Collection):
         self.items.append(item)
     def remove(self, item):
         self.items.remove(item)
+    def length(self):
+        return len(self.items)
     def createIterator(self):
         return ListIterator(self.items)
 
@@ -46,5 +48,5 @@ if __name__ == '__main__':
     list.insert('jim')
     
     listiterator = list.createIterator()
-    while(True):
+    for i in range(list.length()):
         print listiterator.next()
