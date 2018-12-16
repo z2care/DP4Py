@@ -2,3 +2,5 @@ DP4Py[![Build Status](https://travis-ci.org/z2care/DP4Py.svg?branch=master)](htt
 =====
 
 Design patterns implement with python.
+
+The project aimed to learn python language.
